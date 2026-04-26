@@ -1,16 +1,86 @@
-# React + Vite
+# Hacknation Hackathon — City Wallet AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite web app prototype built for **Hacknation Hackathon**. The project showcases a city wallet experience with a clean UI and animations (Framer Motion).
 
-Currently, two official plugins are available:
+**Live demo:** https://city-wallet-ai.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19**
+- **Vite**
+- **JavaScript (ESM)**
+- **CSS**
+- **Framer Motion** (UI motion)
+- **lucide-react** (icons)
+- **ESLint**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (recommended: latest LTS)
+- **npm** (or pnpm/yarn)
+
+### Install
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Then open the URL shown in your terminal (typically `http://localhost:5173`).
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Scripts
+
+- `npm run dev` — start development server
+- `npm run build` — production build
+- `npm run preview` — preview production build
+- `npm run lint` — run ESLint
+
+---
+
+## Project Structure
+
+```text
+.
+├─ src
+├─ public
+├─ index.html
+├─ vite.config.*
+└─ package.json
+```
+
+---
+
+## Deployment
+
+The repository is configured to work well with platforms like **Vercel**.
+
+---
+
+## License
+
+No license file is currently included. If you plan to open-source this project, consider adding a license (e.g., MIT)
